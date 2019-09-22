@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+Answer: we can use pwd to figure out where we are
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -124,6 +125,8 @@ The greater than says, "put that output into the following file instead."
 
 What if we want to read that file back out to the terminal?
 
+Answer: We use `ls` to list all of the files in the current working directory
+
 ```bash
 cat test_file.txt
 ```
@@ -145,6 +148,9 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+
+curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
+
 
 Now that we have the data file, let's learn how to manipulate files.
 

@@ -16,7 +16,7 @@ others = live[live.birthord != 1]
 
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 CohenEffectSize(firsts.prglngth, others.prglngth)
-'''
+```
 
 Cohen's d for first babies vs. others is about -0.089. This means first babies are about 0.089 std. lighter than others 
 

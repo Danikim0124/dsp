@@ -4,22 +4,22 @@
 Using the variable totalwgt_lb, investigate whether ﬁrst babies are lighter or heavier than others. Compute Cohen’s d to quantify the diﬀerence between the groups. How does it compare to the diﬀerence in pregnancy length?
 
 import math
----
+
 import os
----
+
 import thinkstats2
----
+
 import nsfg
----
+
 
 preg = nsfg.ReadFemPreg()
----
+
 live = preg[preg.outcome == 1]
----
+
 firsts = live[live.birthord == 1]
----
+
 others = live[live.birthord != 1]
----
+
 
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 

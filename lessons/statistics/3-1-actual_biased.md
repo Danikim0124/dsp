@@ -38,3 +38,8 @@ thinkplot.Show(xlabel='Number of Children', ylabel='PMF')
 print(actual_pmf.Mean())
 print(biased_pmf.Mean())
 ```
+Mean
+
+actual_pmf=1.024205155043831
+
+biased_pmf=2.403679100664282

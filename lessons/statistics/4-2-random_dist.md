@@ -18,4 +18,5 @@ thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random Numbers', ylabel='CDF')
 ```
 ![PMF](PMF.png)
+
 ![CDF(CDF.png)

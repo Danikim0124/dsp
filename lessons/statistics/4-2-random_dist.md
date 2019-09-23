@@ -17,6 +17,3 @@ cdf = thinkstats2.Cdf(sample)
 thinkplot.Cdf(cdf)
 thinkplot.Config(xlabel='Random Numbers', ylabel='CDF')
 ```
-![PMF](PMF.png)
-
-![CDF](CDF.png)
